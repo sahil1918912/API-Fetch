@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light color for text on dark backgrounds -->
+    <color name="blackShade">#FFFFFF</color> <!-- Keep black as it is since it's used for text on a dark background. -->
+
+    <!-- Lighter color for text on dark backgrounds -->
+    <color name="whiteShade">#2C2A2A</color> <!-- Use a slightly off-white color for better readability. -->
+
+    <!-- Lighter grey for text on dark backgrounds -->
+    <color name="grey">#B0B0B0</color> <!-- Lighter grey to provide contrast against a dark background. -->
+</resources>
