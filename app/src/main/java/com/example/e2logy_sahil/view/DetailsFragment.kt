@@ -45,7 +45,6 @@ class DetailsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Find views in the fragment
         val imgDetails: ImageView = view.findViewById(R.id.imgDetails)
         val txtTitle: TextView = view.findViewById(R.id.titles)
         val txtValidityStart: TextView = view.findViewById(R.id.validityStart)
@@ -57,12 +56,10 @@ class DetailsFragment : Fragment() {
 
         (activity as? MainActivity)?.supportActionBar?.title = storeName
 
-        // Load image with Glide
         imageUrl?.let {
             Glide.with(requireContext()).load(it).into(imgDetails)
         }
 
-        // Set text values to TextViews
         title?.let { txtTitle.text = it }
         validityStart?.let { txtValidityStart.text = it }
         validityEnd?.let { txtValidityEnd.text = it }
@@ -72,7 +69,6 @@ class DetailsFragment : Fragment() {
     }
 
     companion object {
-        // Create a new instance of DetailsFragment with passed arguments
         fun newInstance(
             imageUrl: String,
             storeName: String,

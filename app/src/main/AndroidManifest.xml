@@ -16,10 +16,6 @@
         android:theme="@style/Theme.E2logy_Sahil"
         tools:targetApi="31">
         <activity
-            android:name=".view.DetailsActivity"
-            android:exported="false" />
-        <!-- Add this line -->
-        <activity
             android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>

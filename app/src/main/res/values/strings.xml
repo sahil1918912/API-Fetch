@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">E2logy_Sahil</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="t_c"><![CDATA[T & C :]]></string>
     <string name="offer_list">Offer List</string>
